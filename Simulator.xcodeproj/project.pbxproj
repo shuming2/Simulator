@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		966B37751C56EB8F003AE73D /* Simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simulator; sourceTree = BUILT_PRODUCTS_DIR; };
 		966B37781C56EB8F003AE73D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		966B37801C56ECE9003AE73D /* simulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simulator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				966B37781C56EB8F003AE73D /* main.c */,
+				966B37801C56ECE9003AE73D /* simulator.h */,
 			);
 			path = Simulator;
 			sourceTree = "<group>";
@@ -88,6 +90,9 @@
 		966B376D1C56EB8F003AE73D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = ZhangShuming;
 				TargetAttributes = {
@@ -237,6 +242,7 @@
 				966B377E1C56EB8F003AE73D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
